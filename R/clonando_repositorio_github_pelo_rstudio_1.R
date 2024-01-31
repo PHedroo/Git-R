@@ -27,7 +27,7 @@
     #o link URL da pagina, removendo a parte: https://
       #sendo assim ao copiar: https://github.com/phedroo/ProjetosR
         #removendo a parte "https://": github.com/phedroo/ProjetosR
-          #adiciono então, "/" e meu "username", ficando:
+          #adiciono então, "/" e meu "username_github", ficando:
             # github.com/phedroo/ProjetosR/phedroo_github
 
 #"para onde a pasta vai ser clonada" é pessoal, sempre escolho o disco local C,
