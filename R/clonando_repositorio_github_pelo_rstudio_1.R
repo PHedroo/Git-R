@@ -1,7 +1,7 @@
 # REPASSAR UM REPOSITORIO EXISTENTE PARA OUTRO COMPUTADOR, CLONANDO
 # DIRETAMENTE DO GITHUB PELO RSTUDIO
 
- # Sera usada a funcao usethis::create_from_github().
+ #Sera usada a funcao usethis::create_from_github().
 
 # Argumentos importantes:
 # repo_spec = repositório que quer trabalhar. Deve estar no
@@ -27,6 +27,8 @@
     #o link URL da pagina, removendo a parte: https://
       #sendo assim ao copiar: https://github.com/phedroo/ProjetosR
         #removendo a parte "https://": github.com/phedroo/ProjetosR
+          #adiciono então, "/" e meu "username", ficando:
+            # github.com/phedroo/ProjetosR/phedroo_github
 
 #"para onde a pasta vai ser clonada" é pessoal, sempre escolho o disco local C,
   #tendo criado previamente uma pasta nomeada como previas_projR,
