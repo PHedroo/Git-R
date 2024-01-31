@@ -1,5 +1,5 @@
 # CONFIGURANDO O GIT NO RSTUDIO
-# FÉ feito apenas uma vez (por computador)
+# É feito apenas uma vez (por computador)
 
 install.packages("usethis")
 
@@ -28,11 +28,11 @@ usethis::edit_r_environ()
 # ● Modify 'C:/Users/beatr/Documents/.Renviron'
 # ● Restart R for changes to take effect
 
-  # No arquivo aberto (.Renviron) crie uma linha como:
-  # GITHUB_PAT=código_token_copiado
-  # adicione o token, pule uma linha e salve o arquivo
+# No arquivo aberto (.Renviron) crie uma linha como:
+# GITHUB_PAT=código_token_copiado
+# adicione o token, pule uma linha e salve o arquivo
 
-  # Reinicie o RStudio: CTRL + SHIFT + F10
+# Reinicie o RStudio: CTRL + SHIFT + F10
 
 
 
