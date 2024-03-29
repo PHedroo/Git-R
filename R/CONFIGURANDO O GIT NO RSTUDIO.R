@@ -1,5 +1,5 @@
 # CONFIGURANDO O GIT NO RSTUDIO
-# FÉ feito apenas uma vez (por computador)
+# É feito apenas uma vez (por computador)
 
 install.packages("usethis")
 
@@ -9,6 +9,7 @@ usethis::use_git_config(user.name = "PHedroo", # Seu nome
                         user.email = "pedro.marucio@gmail.com") # Seu email
 
 #CRIANDO NOVO TOKEN NO GITHUB
+
 usethis::create_github_token()
 # Uma página do GitHub irá abrir, com as configurações necessárias.
 # Recomenda-se alterar o nome do token, para saber em qual computador está vinculando.
@@ -22,6 +23,7 @@ usethis::create_github_token()
 # ● Make sure '.Renviron' ends with a newline!
 
 # ABRA O ARQUIVO .Renviron
+
 usethis::edit_r_environ()
 
 # MENSAGENS CONSOLE
