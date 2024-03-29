@@ -22,6 +22,7 @@ usethis::create_github_token()
 # ● Store your PAT with a line like:
 # ● Make sure '.Renviron' ends with a newline!
 
+
 # ABRA O ARQUIVO .Renviron
 
 usethis::edit_r_environ()
