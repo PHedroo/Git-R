@@ -1,0 +1,58 @@
+---
+title: "Configurando Git"
+author: "Oliveira, PHM"
+date: "2024-08-05"
+output: html_document
+---
+
+# CONFIGURANDO O GIT NO RSTUDIO
+## É feito apenas uma vez (por computador)
+
+
+```{r}
+install.packages("usethis")
+library(usethis)
+
+usethis::use_git_config(user.name = "PHedroo", # Seu nome
+                        user.email = "pedro.marucio@gmail.com") # Seu email
+```
+
+
+# CRIANDO NOVO TOKEN NO GITHUB
+```{r}
+usethis::create_github_token()
+
+# Uma página do GitHub irá abrir, com as configurações necessárias.
+# Recomenda-se alterar o nome do token, para saber em qual computador está vinculando.
+# Crie o novo token ao final da página.
+# copie este novo token
+
+# MENSAGENS CONSOLE
+# ✔ Opening URL 'https://github.com/settings/tokens/new?scopes=repo,gist&description=R:GITHUB_PAT'
+# ● Call `usethis::edit_r_environ()` to open '.Renviron'.
+# ● Store your PAT with a line like:
+# ● Make sure '.Renviron' ends with a newline!
+```
+
+# ABRA O ARQUIVO .Renviron
+```{r}
+usethis::edit_r_environ()
+
+# MENSAGENS CONSOLE
+# ● Modify 'C:/Users/beatr/Documents/.Renviron'
+# ● Restart R for changes to take effect
+
+# No arquivo aberto (.Renviron) crie uma linha como:
+# GITHUB_PAT=código_token_copiado
+# adicione o token, pule uma linha e salve o arquivo
+
+# Reinicie o RStudio: CTRL + SHIFT + F10
+```
+
+
+
+
+
+
+
+
