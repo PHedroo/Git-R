@@ -1,11 +1,11 @@
 # CONFIGURANDO O GIT NO RSTUDIO
-# É feito apenas uma vez (por computador)
+## É feito apenas uma vez (por computador)
 
 install.packages("usethis")
 
 library(usethis)
 
-usethis::use_git_config(user.name = "PHedroo", # Seu nome
+usethis::use_git_config(user.name = "phedroo", # Seu nome
                         user.email = "pedro.marucio@gmail.com") # Seu email
 
 #CRIANDO NOVO TOKEN NO GITHUB
