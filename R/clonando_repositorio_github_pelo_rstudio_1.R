@@ -21,7 +21,6 @@
 #                             destdir = "C:/Users/User/Documents/GitHub",
 #                             fork = TRUE)
 
-
 #IMPORTANTE: Essa "pasta que quero clonar", ou "rstudio-education", obtenho
   #indo no meu perfil do github, selecionando o projeto que quero e copiando
     #o link URL da pagina, removendo a parte: https://
@@ -31,12 +30,9 @@
             # github.com/phedroo/ProjetosR/phedroo_github
 
 #"para onde a pasta vai ser clonada" é pessoal, sempre escolho o disco local C,
-  #tendo criado previamente uma pasta nomeada como previas_projR,
+  #tendo criado previamente uma pasta, aqui nomeada como "previas_projR",
     #dou 2 cliques no caminho e o copio, trocando a barra invertida (\),
       #pela barra (/)
-
-#Como o projeto é meu
-  # fork = FALSE
 
 # POR FIM:
 usethis::create_from_github('github.com/phedroo/ProjetosR/phedroo_github',
