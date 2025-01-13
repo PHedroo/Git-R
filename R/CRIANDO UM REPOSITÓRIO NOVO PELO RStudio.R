@@ -1,5 +1,3 @@
-## Após instalado o git (<https://git-scm.com/downloads>)
-
 # CRIANDO UM REPOSITÓRIO NOVO PELO RStudio
 
 # cria um projeto .Rproj
