@@ -5,8 +5,8 @@ install.packages("usethis")
 
 library(usethis)
 
-usethis::use_git_config(user.name = "phedroo", # Seu nome
-                        user.email = "pedro.marucio@gmail.com") # Seu email
+usethis::use_git_config(user.name = "seuusernamegithub", # Seu nome
+                        user.email = "seuemailgithub@gmail.com") # Seu email
 
 #CRIANDO NOVO TOKEN NO GITHUB
 
