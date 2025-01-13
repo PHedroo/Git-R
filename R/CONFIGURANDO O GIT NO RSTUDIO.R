@@ -1,3 +1,5 @@
+## Após instalado o git (<https://git-scm.com/downloads>)
+
 # CONFIGURANDO O GIT NO RSTUDIO
 ## É feito apenas uma vez (por computador)
 
