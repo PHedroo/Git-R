@@ -1,4 +1,7 @@
+## Após instalado o git (<https://git-scm.com/downloads>)
+
 # CRIANDO UM REPOSITÓRIO NOVO PELO RStudio
+
 # cria um projeto .Rproj
 # função usada create_project()
 # usethis::create_project("pasta_para_repositórios_GitHub/Nome do projeto")
